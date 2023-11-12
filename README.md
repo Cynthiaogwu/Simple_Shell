@@ -1,4 +1,4 @@
-simple_shell
+simple_shell-(group project).
 This is a readme for simple shell repo created by I and Mary Udo
 Write a beautiful code that passes the Betty checks
 Write a UNIX command line interpreter.
