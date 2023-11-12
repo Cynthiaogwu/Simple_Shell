@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - execve example
+ * main - execve example.(group project)
  *
  * Return: Always 0.
  */
