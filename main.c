@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * @ac: arg count
- * @av: arg vector
+ * @av: arg vector.(group project)
  *
  * Return: 0 on success, 1 on error
  */
