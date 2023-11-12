@@ -3,7 +3,7 @@
 /**
  * **strtow - splits a string into words. Repeat delimiters are ignored
  * @str: the input string
- * @d: the delimeter string
+ * @d: the delimeter string.(group project)
  * Return: a pointer to an array of strings, or NULL on failure
  */
 
@@ -51,7 +51,7 @@ char **strtow(char *str, char *d)
 /**
  * **strtow2 - splits a string into words
  * @str: the input string
- * @d: the delimeter
+ * @d: the delimeter.(group project)
  * Return: a pointer to an array of strings, or NULL on failure
  */
 char **strtow2(char *str, char d)
