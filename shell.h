@@ -41,7 +41,7 @@ extern char **environ;
  * struct liststr - singly linked list
  * @num: the number field
  * @str: a string
- * @next: points to the next node
+ * @next: points to the next node.(group project)
  */
 typedef struct liststr
 {
@@ -70,7 +70,7 @@ typedef struct liststr
  *@cmd_buf: address of pointer to cmd_buf, on if chaining
  *@cmd_buf_type: CMD_type ||, &&, ;
  *@readfd: the fd from which to read line input
- *@histcount: the history line number count
+ *@histcount: the history line number count.(group project)
  */
 typedef struct passinfo
 {
@@ -102,7 +102,7 @@ typedef struct passinfo
 /**
  *struct builtin - contains a builtin string and related function
  *@type: the builtin command flag
- *@func: the function
+ *@func: the function.(group project)
  */
 typedef struct builtin
 {
