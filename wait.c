@@ -4,7 +4,7 @@
 #include <sys/wait.h>
 
 /**
- * main - fork & wait example
+ * main - fork & wait example.(group project)
  *
  * Return: Always 0.
  */
