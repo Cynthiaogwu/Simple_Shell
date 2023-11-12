@@ -3,7 +3,7 @@
 /**
  * is_cmd - determines if a file is an executable command
  * @info: the info struct
- * @path: path to the file
+ * @path: path to the file.(group project)
  *
  * Return: 1 if true, 0 otherwise
  */
@@ -26,7 +26,7 @@ int is_cmd(info_t *info, char *path)
  * dup_chars - duplicates characters
  * @pathstr: the PATH string
  * @start: starting index
- * @stop: stopping index
+ * @stop: stopping index.(group project)
  *
  * Return: pointer to new buffer
  */
@@ -46,7 +46,7 @@ char *dup_chars(char *pathstr, int start, int stop)
  * find_path - finds this cmd in the PATH string
  * @info: the info struct
  * @pathstr: the PATH string
- * @cmd: the cmd to find
+ * @cmd: the cmd to find.(group project)
  *
  * Return: full path of cmd if found or NULL
  */
