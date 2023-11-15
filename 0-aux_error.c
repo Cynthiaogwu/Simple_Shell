@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * strcat_cd - function that concatenates the message for cd error
+ * strcat_cd - function that concatenates the message for first cd error
  *
  * @datash: data relevant (directory)
- * @msg: message to print
+ * @msg: message to be print
  * @error: output message
  * @ver_str: counter lines
  * Return: error message
@@ -78,7 +78,8 @@ char *error_get_cd(data_shell *datash)
 }
 
 /**
- * error_not_found - generic error message for command not found
+ * error_not_found - generic error message not found for command
+ 
  * @datash: data relevant (counter, arguments)
  * Return: Error message
  */
