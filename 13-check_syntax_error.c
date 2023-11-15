@@ -16,7 +16,7 @@ int repeated_char(char *input, int i)
 }
 
 /**
- * error_sep_op - finds syntax errors
+ * error_sep_op - locates syntax errors
  *
  * @input: input string
  * @i: index
@@ -69,7 +69,7 @@ int error_sep_op(char *input, int i, char last)
 }
 
 /**
- * first_char - finds index of the first char
+ * first_char - locates the index of the first char
  *
  * @input: input string
  * @i: index
