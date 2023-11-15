@@ -1,11 +1,10 @@
 #include "shell.h"
-
 /**
- * swap_char - swaps | and & for non-printed chars
+ * swap_char - swaps both | and & for non-printed chars
  *
- * @input: input string
- * @bool: type of swap
- * Return: swapped string
+ * @input: input strings
+ * @bool: type of swap.
+ * Return: swapped strings.
  */
 char *swap_char(char *input, int bool)
 {
@@ -46,10 +45,10 @@ char *swap_char(char *input, int bool)
 /**
  * add_nodes - add separators and command lines in the lists
  *
- * @head_s: head of separator list
- * @head_l: head of command lines list
- * @input: input string
- * Return: no return
+ * @head_s: head of separator list.
+ * @head_l: head of command lines list.
+ * @input: input string.
+ * Return: no return.
  */
 void add_nodes(sep_list **head_s, line_list **head_l, char *input)
 {
