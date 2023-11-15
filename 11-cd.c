@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * cd_dot - changes to the parent directory
+ * cd_dot - changes from cd to the parent directory
  *
  * @datash: data relevant (environ)
  *
@@ -52,7 +52,7 @@ void cd_dot(data_shell *datash)
 }
 
 /**
- * cd_to - changes to a directory given
+ * cd_to - changes to the directory given
  * by the user
  *
  * @datash: data relevant (directories)
