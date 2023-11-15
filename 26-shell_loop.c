@@ -1,10 +1,9 @@
 #include "shell.h"
-
 /**
- * without_comment - deletes comments from the input
+ * without_comment - deletes a comment from the input
  *
- * @in: input string
- * Return: input without comments
+ * @in: input strings.
+ * Return: input without comments.
  */
 char *without_comment(char *in)
 {
@@ -36,7 +35,7 @@ char *without_comment(char *in)
 }
 
 /**
- * shell_loop - Loop of shell
+ * shell_loop - Loop of shells.
  * @datash: data relevant (av, input, args)
  *
  * Return: no return.
