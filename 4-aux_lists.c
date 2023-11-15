@@ -5,7 +5,7 @@
  * of a sep_list.
  * @head: head of the linked list.
  * @sep: separator found (; | &).
- * Return: address of the head.
+ * Return: head of address.
  */
 sep_list *add_sep_node_end(sep_list **head, char sep)
 {
@@ -87,7 +87,6 @@ line_list *add_line_node_end(line_list **head, char *line)
 
 	return (*head);
 }
-
 /**
  * free_line_list - frees a line_list
  * @head: head of the linked list.
