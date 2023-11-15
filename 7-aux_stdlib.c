@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * get_len - Get the lenght of a number.
  * @n: type int number.
@@ -29,7 +28,7 @@ int get_len(int n)
 }
 /**
  * aux_itoa - function converts int to string.
- * @n: type int number
+ * @n: type int number.
  * Return: String.
  */
 char *aux_itoa(int n)

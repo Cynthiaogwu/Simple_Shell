@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * _memcpy - copies information between void pointers.
  * @newptr: destination pointer.
@@ -63,7 +62,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
  * @old_size: size, in bytes, of the allocated space of ptr.
  * @new_size: new size, in bytes, of the new memory block.
  *
- * Return: ptr.
+ * Return: pointer
  * if new_size == old_size, returns ptr without changes.
  * if malloc fails, returns NULL.
  */

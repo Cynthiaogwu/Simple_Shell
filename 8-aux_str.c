@@ -1,9 +1,8 @@
 #include "shell.h"
-
 /**
- * _strcat - concatenate two strings
- * @dest: char pointer the dest of the copied str
- * @src: const char pointer the source of str
+ * _strcat - concatenate two strings.
+ * @dest: char pointer the dest of the copied str.
+ * @src: const char pointer the source of str.
  * Return: the dest
  */
 char *_strcat(char *dest, const char *src)
@@ -43,9 +42,9 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * _strcmp - Function that compares two strings.
- * @s1: type str compared
- * @s2: type str compared
+ * _strcmp - Function which compares two strings.
+ * @s1: type str compared.
+ * @s2: type str compared.
  * Return: Always 0.
  */
 int _strcmp(char *s1, char *s2)
