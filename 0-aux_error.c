@@ -79,7 +79,7 @@ char *error_get_cd(data_shell *datash)
 
 /**
  * error_not_found - generic error message not found for command
-
+ *
  * @datash: data relevant (counter, arguments)
  * Return: Error message
  */
