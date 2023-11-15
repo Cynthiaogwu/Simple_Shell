@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * is_cdir - checks ":" if is in the current directory.
+ * is_cdir - checks ":" if is in the CD.
  * @path: type char pointer char.
  * @i: type int pointer of index.
  * Return: 1 if the path is searchable in the cd, 0 otherwise.
@@ -73,7 +73,7 @@ char *_which(char *cmd, char **_environ)
 }
 
 /**
- * is_executable - determines if is an executable
+ * is_executable - determines if it is executable
  *
  * @datash: data structure
  * Return: 0 if is not an executable, other number if it does
@@ -118,7 +118,7 @@ int is_executable(data_shell *datash)
 }
 
 /**
- * check_error_cmd - verifies if user has permissions to access
+ * check_error_cmd - verifies the users permissions to access
  *
  * @dir: destination directory
  * @datash: data structure
