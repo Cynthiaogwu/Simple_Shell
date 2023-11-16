@@ -1,8 +1,7 @@
 #include "shell.h"
-
 /**
- * aux_help_env - Help information for the builtin env
- * Return: no return
+ * aux_help_env - Help information for the builtin env.
+ * Return: no return value
  */
 void aux_help_env(void)
 {
@@ -14,12 +13,11 @@ void aux_help_env(void)
 
 }
 /**
- * aux_help_setenv - Help information for the builtin setenv
+ * aux_help_setenv - Help information for the builtin setenv.
  * Return: no return
  */
 void aux_help_setenv(void)
 {
-
 	char *help = "setenv: setenv (const char *name, const char *value,";
 
 	write(STDOUT_FILENO, help, _strlen(help));
